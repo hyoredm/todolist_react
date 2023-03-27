@@ -42,16 +42,22 @@ align-content: center;
 function TodoCreate({onInsert}) {
     const [value, setValue] = useState('');
     const onChange = useCallback(event => {
-        setValue(event.target.value);
+        setValue(event.target.value);      
     }, [])
     const onSubmit = useCallback(
         event => {
+            event.preventDefault();
+            if(!value) {
+                alert('일정을 입력해주세요');
+                return;
+            } // 빈칸 입력 방지
             onInsert(value);
             setValue('');
-            event.preventDefault();
-        }
-    ,[onInsert, value])
-    
+
+            }
+    ,[onInsert, value]
+    )
+
     return(
    
             <InsertForm onSubmit={onSubmit}>
