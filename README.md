@@ -1,29 +1,29 @@
-📦todolist
-┣ 📂public
-┃ ┣ 📜favicon.ico
-┃ ┣ 📜index.html
-┃ ┣ 📜logo192.png
-┃ ┣ 📜logo512.png
-┃ ┣ 📜manifest.json
-┃ ┗ 📜robots.txt
-┣ 📂src
-┃ ┣ 📂components
-┃ ┃ ┣ 📜TodoCreate.js
-┃ ┃ ┣ 📜TodoDate.js
-┃ ┃ ┣ 📜TodoHead.js
-┃ ┃ ┣ 📜TodoItem.js
-┃ ┃ ┣ 📜TodoList.js
-┃ ┃ ┗ 📜TodoTemplate.js
-┃ ┣ 📜App.css
-┃ ┣ 📜App.js
-┃ ┣ 📜App.test.js
-┃ ┣ 📜index.css
-┃ ┣ 📜index.js
-┃ ┣ 📜logo.svg
-┃ ┣ 📜reportWebVitals.js
-┃ ┗ 📜setupTests.js
-┣ 📜.gitignore
-┣ 📜package-lock.json
-┣ 📜package.json
-┣ 📜README.md
+📦todolist <br/>
+┣ 📂public <br/>
+┃ ┣ 📜favicon.ico <br/>
+┃ ┣ 📜index.html <br/>
+┃ ┣ 📜logo192.png <br/>
+┃ ┣ 📜logo512.png <br/>
+┃ ┣ 📜manifest.json <br/>
+┃ ┗ 📜robots.txt <br/>
+┣ 📂src <br/>
+┃ ┣ 📂components <br/>
+┃ ┃ ┣ 📜TodoCreate.js <br/>
+┃ ┃ ┣ 📜TodoDate.js <br/>
+┃ ┃ ┣ 📜TodoHead.js <br/>
+┃ ┃ ┣ 📜TodoItem.js <br/>
+┃ ┃ ┣ 📜TodoList.js <br/>
+┃ ┃ ┗ 📜TodoTemplate.js <br/>
+┃ ┣ 📜App.css <br/>
+┃ ┣ 📜App.js <br/>
+┃ ┣ 📜App.test.js <br/>
+┃ ┣ 📜index.css <br/>
+┃ ┣ 📜index.js <br/>
+┃ ┣ 📜logo.svg <br/>
+┃ ┣ 📜reportWebVitals.js <br/>
+┃ ┗ 📜setupTests.js <br/>
+┣ 📜.gitignore <br/>
+┣ 📜package-lock.json <br/>
+┣ 📜package.json <br/>
+┣ 📜README.md <br/>
 ┗ 📜yarn.lock
